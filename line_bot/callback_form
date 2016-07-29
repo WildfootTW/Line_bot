@@ -1,0 +1,22 @@
+b
+'{
+	"result":[{
+		"from":"u206d25c2ea6bd87c17655609a1c37cb8",
+		"fromChannel":1341301815,
+		"to":["u4419e55ac5e18056bb7e618764c8fc49"],
+		"toChannel":1474602467,
+		"eventType":"138311609000106303",
+		"id":"ABCDEF-12345678901",
+		"content":{
+			"id":"1234567890123",
+			"contentType":1,
+			"from":"uffffffffffffffffffffffffffffffff",
+			"createdTime":1469809999702,
+			"to":["u4419e55ac5e18056bb7e618764c8fc49"],
+			"toType":1,
+			"contentMetadata":null,
+			"text":"Hello,world!",
+			"location":null
+		}
+	}]
+}'
