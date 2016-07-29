@@ -12,5 +12,9 @@ from django.views.decorators.csrf import csrf_exempt
 
 @csrf_exempt
 def callback(request):
+	file = open("input_from_post", 'w', encoding = 'UTF-8')
+	for data in request:
+		file.write(str(data))
+	file.close()
 	return HttpResponse(request)
 	#return render(request, 'callback.html', locals())
