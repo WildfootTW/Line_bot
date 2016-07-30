@@ -1,22 +1,31 @@
-b
-'{
-	"result":[{
-		"from":"u206d25c2ea6bd87c17655609a1c37cb8",
-		"fromChannel":1341301815,
+b'{
+"result":[
+	{
+	"content":
+		{
+		"toType":1,
+		"createdTime":1469810756003,
+		"from":"u723d0680f46e54a53b3c2d48601650b1",
+		"location":null,
+		"id":"4681897787618",
 		"to":["u4419e55ac5e18056bb7e618764c8fc49"],
-		"toChannel":1474602467,
-		"eventType":"138311609000106303",
-		"id":"ABCDEF-12345678901",
-		"content":{
-			"id":"1234567890123",
-			"contentType":1,
-			"from":"uffffffffffffffffffffffffffffffff",
-			"createdTime":1469809999702,
-			"to":["u4419e55ac5e18056bb7e618764c8fc49"],
-			"toType":1,
-			"contentMetadata":null,
-			"text":"Hello,world!",
-			"location":null
-		}
-	}]
+		"text":"\xe6\xb8\xac\xe8\xa9\xa6",
+		"contentMetadata":
+		{
+			"AT_RECV_MODE":"2",
+			"SKIP_BADGE_COUNT":"true"
+		},
+		"deliveredTime":0,
+		"contentType":1,
+		"seq":null
+	},
+	"createdTime":1469810756049,
+	"eventType":"138311609000106303",
+	"from":"u206d25c2ea6bd87c17655609a1c37cb8",
+	"fromChannel":1341301815,
+	"id":"WB1521-3653624023",
+	"to":["u4419e55ac5e18056bb7e618764c8fc49"],
+	"toChannel":1474602467
+	}
+	]
 }'

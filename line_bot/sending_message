@@ -1,0 +1,17 @@
+POST /v1/events HTTP/1.1
+Host: trialbot-api.line.me
+Content-type: application/json; charset=UTF-8
+X-Line-ChannelID: 1474602467
+X-Line-ChannelSecret: 
+X-Line-Trusted-User-With-ACL: u4419e55ac5e18056bb7e618764c8fc49
+
+{
+  "to":["u206d25c2ea6bd87c17655609a1c37cb8"],
+  "toChannel":1341301815,
+  "eventType":"138311608800106203",
+  "content":{
+	"contentType":1,
+	"toType":1,
+	"text":"Hello, World!!"
+  }
+}
